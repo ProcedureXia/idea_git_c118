@@ -5,7 +5,12 @@ package com.dao;
  */
 public class HelloDao {
 
-    public String sayHello(String name){
+    public String sayHello(String name)
+    {
         return "name:"+name;
+    }
+
+    public void m1(){
+
     }
 }
